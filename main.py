@@ -1,11 +1,12 @@
+
 from fastapi import FastAPI
 from fastapi.responses import JSONResponse
-import json
+
 app = FastAPI()
 
 ANSWER = {
     "A": {
-        "text": "Report job-95b60a1b: café" + chr(10) + "Ready ✅",
+        "text": "Report job-95b60a1b: caf\u00e9" + chr(10) + "Ready \u2705",
         "complete": True,
         "error": None
     },
@@ -23,4 +24,4 @@ ANSWER = {
 
 @app.get("/")
 def get_answer():
-    return ANSWER
+    return JSONResponse(content=ANSWER)
