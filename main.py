@@ -32,5 +32,5 @@ ANSWER = {
 def get_answer():
     return JSONResponse(
         content=ANSWER,
-        media_type="application/json"
+        media_type="application/json; charset=utf-8"
     )
