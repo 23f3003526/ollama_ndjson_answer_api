@@ -1,1 +1,18 @@
-{"A":{"text":"Report job-95b60a1b: café\nReady ✅","complete":true,"error":null},"B":{"text":"Partial job-95b60a1b","complete":false,"error":null},"C":{"text":"Draft job-95b60a1b","complete":false,"error":"model unloaded"}}
+
+{
+  "A": {
+    "text": "Report job-95b60a1b: café\nReady ✅",
+    "complete": true,
+    "error": null
+  },
+  "B": {
+    "text": "Partial job-95b60a1b",
+    "complete": false,
+    "error": null
+  },
+  "C": {
+    "text": "Draft job-95b60a1b",
+    "complete": false,
+    "error": "model unloaded"
+  }
+}
