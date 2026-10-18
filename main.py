@@ -6,13 +6,7 @@ app = FastAPI()
 
 ANSWER = {
     "A": {
-        "text": (
-            "Report job-95b60a1b: caf"
-            + chr(0x00E9)
-            + chr(10)
-            + "Ready "
-            + chr(0x2705)
-        ),
+        "text": "Report job-95b60a1b: café" + chr(10) + "Ready " + chr(0x2713),
         "complete": True,
         "error": None
     },
