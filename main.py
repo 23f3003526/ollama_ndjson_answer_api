@@ -4,7 +4,7 @@ app = FastAPI(title="NDJSON Reconstruction Answer")
 
 ANSWER = {
     "A": {
-        "text": "Report job-95b60a1b: café\\nReady ✅",
+        "text": "Report job-95b60a1b: café\nReady ✅",
         "complete": True,
         "error": None
     },
