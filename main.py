@@ -1,5 +1,6 @@
 from fastapi.responses import JSONResponse
 import json
+app = FastAPI()
 
 @app.get("/")
 def get_answer():
